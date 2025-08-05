@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+enter name:
+<input type="text" name="sname" id="sname" required><br>
+
+enter password:
+<input type="password" name="pass" id="pass" required><br>
+<button onclick="validate()">click</button>
+</body>
+<script>
+function validate()
+{
+let n=(document.getElementById("sname").value).trim();
+let p=(document.getElementById("pass").value).trim();
+if(!n || !p)
+{
+document.write("invalid input");
+}
+else
+{
+alert("login successfull!");
+}
+}
+</script>
+</html>
