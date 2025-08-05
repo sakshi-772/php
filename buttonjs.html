@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+enter the no:
+<br>
+<input type="number" id="a">
+<button onclick="fact()">add</button>
+<script>
+function fact()
+{
+let a=document.getElementById("a").value;
+let fact=1;
+while(a>0)
+{
+fact=fact*a;
+a--;
+}
+document.write("factorial of ",document.getElementById("a").value ," is: ",fact);
+}
+</script>
+</body>
+</html>

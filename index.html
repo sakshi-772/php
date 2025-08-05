@@ -1,0 +1,24 @@
+<!-- index.php -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Color & Font Selector</title>
+</head>
+<body>
+  <h2>Pick Colors & See Them on Next Page</h2>
+  <form action="result.php" method="post">
+    <label>Font Color (e.g. red or #ff0000):
+      <input type="text" name="font_color" required>
+    </label><br><br>
+    <label>Background Color (e.g. lightblue or #00ff00):
+      <input type="text" name="bg_color" required>
+    </label><br><br>
+    <label>Text to Display:
+      <textarea name="message" rows="3" cols="30" required></textarea>
+    </label><br><br>
+    <input type="submit" value="Show Colors">
+  </form>
+</body>
+</html>
+
