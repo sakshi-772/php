@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="item.css"?>
+<Stocklist>
+<Item>
+<Itemname>Apple</Itemname>
+<Itemprice>60</Itemprice>
+<Qty>4</Qty>
+</Item>
+<Item>
+<Itemname>Banana</Itemname>
+<Itemprice>40</Itemprice>
+<Qty>5</Qty>
+</Item>
+<Item>
+<Itemname>Cherry</Itemname>
+<Itemprice>70</Itemprice>
+<Qty>7</Qty>
+</Item>
+<Item>
+<Itemname>Pineapple</Itemname>
+<Itemprice>30</Itemprice>
+<Qty>9</Qty>
+</Item>
+<Item>
+<Itemname>Dragonfruit</Itemname>
+<Itemprice>100</Itemprice>
+<Qty>6</Qty>
+</Item>
+</Stocklist>

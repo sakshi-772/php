@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students>
+<student>
+<rno>1</rno>
+<name>sakshi</name>
+<marks>94</marks>
+</student>
+<student>
+<rno>2</rno>
+<name>vaishnavi</name>
+<marks>97</marks>
+</student>
+<student>
+<rno>3</rno>
+<name>Gauri</name>
+<marks>96</marks>
+</student>
+</Students>
+
